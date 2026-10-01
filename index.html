@@ -1,0 +1,931 @@
+<!doctype html>
+<html lang="bn" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>মোহাম্মদপুর মাদকবিরোধী অভিযান | পাঁচবিবি, জয়পুরহাট</title>
+    <meta name="description" content="মাদককে না বলি, মাদকমুক্ত সমাজ গড়ি। হয় মাদক ছাড়, না হয় মোহাম্মদপুর ছাড়। মোহাম্মদপুর ইউনিয়ন (পাঁচবিবি, জয়পুরহাট)-এর ছাত্র-জনতা, বিজিবি, পুলিশ ও যৌথ বাহিনীর মাদকবিরোধী নাগরিক প্ল্যাটফর্ম।" />
+    <meta name="keywords" content="মোহাম্মদপুর, পাঁচবিবি, জয়পুরহাট, মাদকবিরোধী অভিযান, বিজিবি, র‍্যাব-৫, রতনপুর, ধরন্জী, হিলি সীমান্ত, ট্যাপেন্টাডল, গোপন তথ্য প্রদান" />
+    <meta property="og:title" content="মোহাম্মদপুর মাদকবিরোধী অভিযান | পাঁচবিবি, জয়পুরহাট" />
+    <meta property="og:description" content="হয় মাদক ছাড়, না হয় মোহাম্মদপুর ছাড়। মোহাম্মদপুর ইউনিয়ন (পাঁচবিবি, জয়পুরহাট)-এর সর্বস্তরের ছাত্র-জনতার সংহতি।" />
+    <meta property="og:image" content="/assets/emblem.jpg" />
+    <meta property="og:type" content="website" />
+    <link rel="icon" type="image/jpeg" href="/assets/emblem.jpg" />
+
+    <!-- Google Fonts: Hind Siliguri (Bengali) + Plus Jakarta Sans (English/Numerals) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    
+    <link rel="stylesheet" href="/src/style.css" />
+  </head>
+  <body>
+    <!-- Top Emergency Broadcast Bar -->
+    <aside class="top-broadcast-bar" aria-label="জরুরি অ্যালার্ট ও হটলাইন">
+      <div class="container broadcast-container">
+        <div class="broadcast-left">
+          <span class="live-pill"><span class="pulse-dot"></span> লাইভ জরুরি হেল্পলাইন</span>
+          <div class="ticker-wrapper">
+            <span class="ticker-text" id="tickerBroadcast">
+              🚨 জাতীয় জরুরি সেবা: <strong>৯৯৯</strong> &nbsp;|&nbsp; 
+              পাঁচবিবি থানা পুলিশ (ওসি): <strong>০১৭১৩-৩৭৪০৮৬</strong> &nbsp;|&nbsp; 
+              ডিউটি অফিসার পাঁচবিবি: <strong>০১৮৬৫-০২০২২৭</strong> &nbsp;|&nbsp; 
+              বিজিবি ২০ ব্যাটালিয়ন জয়পুরহাট: <strong>০১৭৬৯-৬১২৩৫০</strong> &nbsp;|&nbsp; 
+              র‍্যাব-৫ (জয়পুরহাট ক্যাম্প): <strong>০১৭৭৭-৭১০৫৩৩</strong> &nbsp;|&nbsp; 
+              মাদকদ্রব্য নিয়ন্ত্রণ অধিদপ্তর: <strong>১৬১১৬</strong>
+            </span>
+          </div>
+        </div>
+        <div class="broadcast-right">
+          <button id="themeToggleBtn" class="utility-btn" title="থিম পরিবর্তন করুন" aria-label="Toggle Theme">
+            <span class="theme-icon" id="themeIcon">☀️</span>
+            <span class="btn-text lang-text" data-bn="থিম" data-en="Theme">থিম</span>
+          </button>
+          <button id="langToggleBtn" class="utility-btn" title="Change Language" aria-label="Toggle Language">
+            <span class="lang-flag">🌐</span>
+            <span id="langLabel">ENG</span>
+          </button>
+        </div>
+      </div>
+    </aside>
+
+    <!-- Main Navigation Bar -->
+    <header class="main-header" id="navbar">
+      <div class="container nav-container">
+        <a href="#hero" class="brand-identity">
+          <div class="brand-logo-wrapper">
+            <img src="/assets/emblem.jpg" alt="মোহাম্মদপুর মাদকবিরোধী অভিযান লোগো" class="brand-logo-img" />
+            <div class="logo-glow"></div>
+          </div>
+          <div class="brand-text">
+            <h1 class="brand-title">মোহাম্মদপুর মাদকবিরোধী অভিযান</h1>
+            <p class="brand-subtitle">পাঁচবিবি, জয়পুরহাট • নাগরিক স্কোয়াড ও যৌথ টাস্কফোর্স</p>
+          </div>
+        </a>
+
+        <!-- Desktop Navigation Menu -->
+        <nav class="desktop-nav" aria-label="প্রধান নেভিগেশন">
+          <ul class="nav-links">
+            <li><a href="#hero" class="nav-link active" data-bn="হোম" data-en="Home">হোম</a></li>
+            <li><a href="#hotspots" class="nav-link" data-bn="সীমান্ত ও ইউনিয়ন রাডার" data-en="Border Radar">সীমান্ত ও ইউনিয়ন রাডার</a></li>
+            <li><a href="#whistleblower" class="nav-link highlight-report" data-bn="গোপন তথ্য দিন" data-en="Report Secretly">
+              <span class="shield-icon">🛡️</span> <span data-bn="গোপন তথ্য দিন" data-en="Report Secretly">গোপন তথ্য দিন</span>
+            </a></li>
+            <li><a href="#helplines" class="nav-link" data-bn="জরুরি হটলাইন" data-en="Emergency">জরুরি হটলাইন</a></li>
+            <li><a href="#rehab" class="nav-link" data-bn="পুনর্বাসন উইং" data-en="Rehab & Care">পুনর্বাসন উইং</a></li>
+            <li><a href="#volunteers" class="nav-link" data-bn="স্বেচ্ছাসেবক" data-en="Volunteers">স্বেচ্ছাসেবক</a></li>
+            <li><a href="#bulletins" class="nav-link" data-bn="সংবাদ ও সত্যতা" data-en="News & Facts">সংবাদ ও সত্যতা</a></li>
+          </ul>
+        </nav>
+
+        <!-- Header Actions -->
+        <div class="header-actions">
+          <a href="#whistleblower" class="btn btn-crimson header-cta-btn">
+            <span class="icon-pulse">🚨</span>
+            <span data-bn="গোপন অভিযোগ বক্স" data-en="Report Crime">গোপন অভিযোগ বক্স</span>
+          </a>
+          <button class="mobile-menu-trigger" id="mobileMenuBtn" aria-label="মেনু খুলুন" aria-expanded="false">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <!-- Mobile Drawer Navigation -->
+    <div class="mobile-drawer-overlay" id="drawerOverlay"></div>
+    <div class="mobile-drawer" id="mobileDrawer">
+      <div class="drawer-header">
+        <div class="drawer-brand">
+          <img src="/assets/emblem.jpg" alt="মোহাম্মদপুর মাদকবিরোধী অভিযান লোগো" class="drawer-logo" />
+          <div>
+            <h3>মাদকবিরোধী সেল</h3>
+            <p>মোহাম্মদপুর, পাঁচবিবি, জয়পুরহাট</p>
+          </div>
+        </div>
+        <button class="drawer-close-btn" id="drawerCloseBtn" aria-label="মেনু বন্ধ করুন">&times;</button>
+      </div>
+      <ul class="drawer-links">
+        <li><a href="#hero" class="drawer-link active">🏠 হোমপেইজ</a></li>
+        <li><a href="#hotspots" class="drawer-link">📍 ইউনিয়ন ও সীমান্ত ওয়াচ ম্যাপ</a></li>
+        <li><a href="#whistleblower" class="drawer-link drawer-cta">🛡️ ১০০% গোপন তথ্য প্রদান বক্স</a></li>
+        <li><a href="#helplines" class="drawer-link">📞 থানা, বিজিবি ও র‍্যাব হটলাইন</a></li>
+        <li><a href="#rehab" class="drawer-link">🌱 মাদক নিরাময় ও কাউন্সেলিং</a></li>
+        <li><a href="#volunteers" class="drawer-link">🤝 নাগরিক স্কোয়াডে যুক্ত হোন</a></li>
+        <li><a href="#bulletins" class="drawer-link">📰 অফিসিয়াল বুলেটিন ও ফ্যাক্ট-চেক</a></li>
+      </ul>
+      <div class="drawer-emergency-call">
+        <p>তাৎক্ষণিক সাহায্য প্রয়োজন?</p>
+        <a href="tel:999" class="btn btn-full btn-crimson">🚨 জাতীয় জরুরি সেবা ৯৯৯ এ কল করুন</a>
+      </div>
+    </div>
+
+    <main id="mainContent">
+      <!-- HERO SECTION -->
+      <section class="hero-section" id="hero">
+        <div class="hero-bg-overlay"></div>
+        <div class="hero-glow-blob blob-1"></div>
+        <div class="hero-glow-blob blob-2"></div>
+        
+        <div class="container hero-container">
+          <div class="hero-content">
+            <div class="hero-badge animate-fade-in">
+              <span class="badge-icon">🛡️</span>
+              <span class="badge-text" data-bn="মোহাম্মদপুর ইউনিয়ন (পাঁচবিবি, জয়পুরহাট) ছাত্র-জনতা ও যৌথ টাস্কফোর্স" data-en="Mohammadpur Union, Panchbibi, Joypurhat Citizen & Task Force">মোহাম্মদপুর ইউনিয়ন (পাঁচবিবি, জয়পুরহাট) ছাত্র-জনতা ও যৌথ টাস্কফোর্স</span>
+            </div>
+
+            <h1 class="hero-title animate-fade-in-up">
+              <span class="title-primary" data-bn="মাদককে না বলি, মাদকমুক্ত সমাজ গড়ি" data-en="Say NO to Drugs, Build a Drug-Free Society">মাদককে না বলি, মাদকমুক্ত সমাজ গড়ি</span>
+              <span class="title-highlight gradient-text" data-bn="হয় মাদক ছাড়, না হয় মোহাম্মদপুর ছাড়" data-en="Either Leave Drugs, Or Leave Mohammadpur!">হয় মাদক ছাড়, না হয় মোহাম্মদপুর ছাড়</span>
+            </h1>
+
+            <p class="hero-description animate-fade-in-up delay-1" data-bn="জয়পুরহাটের পাঁচবিবি উপজেলার মোহাম্মদপুর ইউনিয়ন ও পার্শ্ববর্তী সীমান্ত এলাকাকে ট্যাপেন্টাডল, ইনজেকশন, গাঁজা ও ফেনসিডিলমুক্ত করতে ছাত্র-জনতা, বিজিবি, পুলিশ ও র‍্যাবের সমন্বিত প্রতিরোধ প্ল্যাটফর্ম। আপনার পরিচয় সম্পূর্ণ গোপন রেখে মাদক সিন্ডিকেটের তথ্য দিন।" data-en="Dedicated to eradicating illicit narcotics (Tapentadol, Injections, Cannabis, Phensedyl) from Mohammadpur Union & Panchbibi border corridor. Your anonymous report directly empowers BGB, Police and Joint raids.">
+              জয়পুরহাটের পাঁচবিবি উপজেলার মোহাম্মদপুর ইউনিয়ন ও পার্শ্ববর্তী সীমান্ত এলাকাকে ট্যাপেন্টাডল, ইনজেকশন, গাঁজা ও ফেনসিডিলমুক্ত করতে ছাত্র-জনতা, বিজিবি, পুলিশ ও র‍্যাবের সমন্বিত প্রতিরোধ প্ল্যাটফর্ম। আপনার পরিচয় সম্পূর্ণ গোপন রেখে মাদক সিন্ডিকেটের তথ্য দিন।
+            </p>
+
+            <!-- Hero Action Buttons -->
+            <div class="hero-cta-group animate-fade-in-up delay-2">
+              <a href="#whistleblower" class="btn btn-lg btn-crimson hero-btn shadow-glow">
+                <span class="btn-icon">🛡️</span>
+                <span data-bn="গোপনে তথ্য দিন (১০০% নিরাপদ)" data-en="Submit Anonymous Report">গোপনে তথ্য দিন (১০০% নিরাপদ)</span>
+              </a>
+              <a href="#hotspots" class="btn btn-lg btn-glass hero-btn">
+                <span class="btn-icon">📍</span>
+                <span data-bn="ইউনিয়ন ও সীমান্ত রাডার" data-en="Union & Border Radar">ইউনিয়ন ও সীমান্ত রাডার</span>
+              </a>
+              <a href="#helplines" class="btn btn-lg btn-navy hero-btn">
+                <span class="btn-icon">📞</span>
+                <span data-bn="থানা ও বিজিবি হটলাইন" data-en="BGB & Police Hotlines">থানা ও বিজিবি হটলাইন</span>
+              </a>
+            </div>
+
+            <!-- Zero-Log Security Promise Pill -->
+            <div class="privacy-guarantee-pill animate-fade-in-up delay-3">
+              <span class="pill-lock">🔒</span>
+              <span class="pill-text" data-bn="শতভাগ গোপনীয়তা নিশ্চিত: কোনো নাম বা আইপি অ্যাড্রেস সংগ্রহ করা হয় না।" data-en="Zero Log Guarantee: No name, phone or IP address recorded.">
+                শতভাগ গোপনীয়তা নিশ্চিত: কোনো নাম বা আইপি অ্যাড্রেস সংগ্রহ করা হয় না।
+              </span>
+            </div>
+          </div>
+
+          <!-- Hero Visual & Live Stats Cards -->
+          <div class="hero-visual-card animate-fade-in-up delay-2">
+            <div class="visual-media-frame">
+              <img src="/assets/rally.jpg" alt="মোহাম্মদপুরে মাদকবিরোধী ছাত্র-জনতার সংহতি মিছিল" class="hero-media-img" />
+              <div class="media-overlay-gradient"></div>
+              <div class="media-badge">
+                <span class="pulse-indicator"></span>
+                <span>মোহাম্মদপুর নাগরিক সংহতি ও প্রতিরোধ</span>
+              </div>
+            </div>
+
+            <!-- Live Community Action Counters -->
+            <div class="hero-stats-grid">
+              <div class="stat-card" data-stat="raids">
+                <div class="stat-icon-wrap icon-red">⚡</div>
+                <div class="stat-info">
+                  <div class="stat-number" data-target="52">৫২+</div>
+                  <div class="stat-label" data-bn="বিজিবি ও পুলিশি অভিযান" data-en="BGB & Police Raids">বিজিবি ও পুলিশি অভিযান</div>
+                </div>
+              </div>
+
+              <div class="stat-card" data-stat="contraband">
+                <div class="stat-icon-wrap icon-amber">📦</div>
+                <div class="stat-info">
+                  <div class="stat-number" data-target="14500">১৪,৫০০+ পিস</div>
+                  <div class="stat-label" data-bn="ট্যাপেন্টাডল ও ইনজেকশন জব্দ" data-en="Contraband Seized">ট্যাপেন্টাডল ও ইনজেকশন জব্দ</div>
+                </div>
+              </div>
+
+              <div class="stat-card" data-stat="arrests">
+                <div class="stat-icon-wrap icon-blue">👮</div>
+                <div class="stat-info">
+                  <div class="stat-number" data-target="184">১৮৪+ জন</div>
+                  <div class="stat-label" data-bn="চিহ্নিত চোরাকারবারি আটক" data-en="Dealers Apprehended">চিহ্নিত চোরাকারবারি আটক</div>
+                </div>
+              </div>
+
+              <div class="stat-card" data-stat="rehab">
+                <div class="stat-icon-wrap icon-green">🌱</div>
+                <div class="stat-info">
+                  <div class="stat-number" data-target="48">৪৮+ জন</div>
+                  <div class="stat-label" data-bn="সুস্থ জীবনে ফিরে আসা তরুণ" data-en="Youths in Rehab">সুস্থ জীবনে ফিরে আসা তরুণ</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- LIVE OPERATION TICKER / ALERTS -->
+      <section class="live-alerts-ribbon">
+        <div class="container">
+          <div class="ribbon-inner">
+            <div class="ribbon-badge">
+              <span class="pulsing-radar"></span>
+              <span data-bn="সর্বশেষ ফিল্ড আপডেট" data-en="Live Operations">সর্বশেষ ফিল্ড আপডেট</span>
+            </div>
+            <div class="ribbon-items-slider" id="ribbonSlider">
+              <div class="ribbon-item">
+                <span class="item-tag tag-joint">বিজিবি ও ডিএনসি</span>
+                <span class="item-text">শ্রীমন্তপুর ও ধরন্জী সীমান্তে যৌথ অভিযানে বিপুল পরিমাণ ট্যাপেন্টাডল ট্যাবলেট ও কুপিজেসিক ইনজেকশনসহ ৩ কারবারি আটক।</span>
+                <span class="item-time">২৫ মিনিট আগে</span>
+              </div>
+              <div class="ribbon-item">
+                <span class="item-tag tag-police">পাঁচবিবি থানা পুলিশ</span>
+                <span class="item-text">মোহাম্মদপুর ইউনিয়ন পরিষদ সংলগ্ন রাস্তায় চেকপোস্টে মাদক পাচারকারী সন্দেহভাজন মোটরসাইকেল জব্দ।</span>
+                <span class="item-time">২ ঘণ্টা আগে</span>
+              </div>
+              <div class="ribbon-item">
+                <span class="item-tag tag-citizen">ছাত্র স্কোয়াড</span>
+                <span class="item-text">রতনপুর বাজারে মাদকবিরোধী গণসচেতনতামূলক লিফলেট বিলি ও মাদক বিক্রেতাদের বয়কটের ডাক।</span>
+                <span class="item-time">৪ ঘণ্টা আগে</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION 2: INTERACTIVE CRIME WATCH & SAFETY RADAR MAP -->
+      <section class="section-padding section-hotspots" id="hotspots">
+        <div class="container">
+          <div class="section-header text-center">
+            <div class="sub-badge">📍 এলাকাভিত্তিক ক্রাইম ও বর্ডার ওয়াচ</div>
+            <h2 class="section-title">
+              <span data-bn="মোহাম্মদপুর ইউনিয়ন ও পাঁচবিবি সিকিউরিটি রাডার" data-en="Mohammadpur Union & Border Security Radar">মোহাম্মদপুর ইউনিয়ন ও পাঁচবিবি সিকিউরিটি রাডার</span>
+            </h2>
+            <p class="section-desc">
+              মোহাম্মদপুর ইউনিয়নের বিভিন্ন গ্রাম, সীমান্ত করিডোর ও প্রধান বাজারসমূহের বর্তমান নিরাপত্তা পরিস্থিতি, বিজিবি-পুলিশ চেকপোস্টের অবস্থান এবং স্বেচ্ছাসেবক দলের লাইভ মনিটরিং।
+            </p>
+
+            <!-- Location Coordinates Pill linking to Google Maps -->
+            <div style="margin-top: 1rem;">
+              <a href="https://www.google.com/maps/place/Mohammadpur/@25.2223286,89.0930673,15z/data=!3m1!4b1!4m6!3m5!1s0x39fceb2ffb1e4bff:0xe9b55673c768ec3c!8m2!3d25.2247616!4d89.1062631" target="_blank" rel="noopener noreferrer" class="btn btn-glass" style="font-size: 0.88rem; padding: 0.4rem 1rem;">
+                <span>🗺️ গুগল ম্যাপে মোহাম্মদপুর দেখুন (২৫.২২৪৭° N, ৮৯.১০৬২° E)</span>
+              </a>
+            </div>
+          </div>
+
+          <div class="radar-layout">
+            <!-- Left: Sector Grid Selector -->
+            <div class="sector-selector-panel">
+              <div class="selector-header">
+                <h3>নিরাপত্তা জোন ও সীমান্ত স্পটসমূহ (<span id="totalZonesCount">৮</span>)</h3>
+                <span class="live-status-pill">রিয়েলটাইম মনিটরিং</span>
+              </div>
+              <div class="zone-cards-list" id="zoneCardsList">
+                <!-- Injected via JavaScript -->
+              </div>
+            </div>
+
+            <!-- Right: Zone Detailed Intel Card -->
+            <div class="sector-details-panel" id="zoneDetailsPanel">
+              <div class="intel-card glass-panel" id="activeZoneCard">
+                <!-- Dynamically updated via JS -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION 3: 100% ANONYMOUS WHISTLEBLOWER PORTAL -->
+      <section class="section-padding section-whistleblower" id="whistleblower">
+        <div class="container">
+          <div class="whistleblower-grid">
+            <!-- Left Info Panel -->
+            <div class="whistleblower-info">
+              <div class="sub-badge badge-crimson">🛡️ ১০০% গোপন তথ্য প্রদান বক্স</div>
+              <h2 class="section-title">
+                <span data-bn="আপনার একটি তথ্যই ভেঙে দিতে পারে সীমান্ত মাদক চক্র" data-en="Your Intelligence Breaks Border Narcotics Smuggling">আপনার একটি তথ্যই ভেঙে দিতে পারে সীমান্ত মাদক চক্র</span>
+              </h2>
+              <p class="section-desc">
+                মোহাম্মদপুর ইউনিয়ন ও পাঁচবিবি এলাকাকে মাদকমুক্ত করতে সাধারণ গ্রামবাসী, সচেতন অভিভাবক ও তরুণদের গোপন তথ্যই যৌথ বাহিনীর সবচেয়ে বড় শক্তি।
+              </p>
+
+              <!-- Security Pillars -->
+              <div class="security-pillars">
+                <div class="pillar-item">
+                  <div class="pillar-icon">🔒</div>
+                  <div>
+                    <h4>জিরো-লগ এনক্রিপশন</h4>
+                    <p>আপনার মোবাইল নম্বর, আইপি অ্যাড্রেস বা ডিভাইস সম্পর্কিত কোনো ডেটাই সিস্টেমে রাখা হয় না।</p>
+                  </div>
+                </div>
+
+                <div class="pillar-item">
+                  <div class="pillar-icon">🧹</div>
+                  <div>
+                    <h4>EXIF মেটাডাটা স্ক্রাবার</h4>
+                    <p>ছবি বা ভিডিও আপলোড করলে স্বয়ংক্রিয়ভাবে তার ভেতরের ক্যামেরা ও জিপিএস লোকেশন মুছে ফেলা হয়।</p>
+                  </div>
+                </div>
+
+                <div class="pillar-item">
+                  <div class="pillar-icon">🎯</div>
+                  <div>
+                    <h4>সরাসরি বিজিবি, পুলিশ ও টাস্কফোর্স</h4>
+                    <p>যাচাইকৃত তথ্য সরাসরি পাঁচবিবি থানা পুলিশ, জয়পুরহাট বিজিবি ব্যাটালিয়ন ও র‍্যাব-৫ এর কাছে ব্যবস্থা গ্রহণের জন্য হস্তান্তরিত হয়।</p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Tracking Lookup Box -->
+              <div class="tracking-lookup-card glass-panel">
+                <h4>🔎 পূর্ববর্তী রিপোর্টের অগ্রগতি জানুন</h4>
+                <p>আপনার সিক্রেট রেফারেন্স কোড দিয়ে রিপোর্টের বর্তমান স্ট্যাটাস চেক করুন:</p>
+                <form id="trackingLookupForm" class="tracking-form">
+                  <div class="input-with-button">
+                    <input type="text" id="trackingCodeInput" placeholder="উদাঃ MP-PANCH-2026-XXXX" required />
+                    <button type="submit" class="btn btn-navy">ট্র্যাক করুন</button>
+                  </div>
+                </form>
+                <div id="trackingResultBox" class="tracking-result-box hidden"></div>
+              </div>
+            </div>
+
+            <!-- Right Interactive Form Panel -->
+            <div class="whistleblower-form-panel glass-panel">
+              <div class="form-header">
+                <div class="form-title-wrap">
+                  <span class="secure-icon">🛡️</span>
+                  <div>
+                    <h3>গোপন তথ্য প্রদান ফর্ম</h3>
+                    <p class="form-note">কোনো নাম বা মোবাইল নম্বর দেওয়ার প্রয়োজন নেই</p>
+                  </div>
+                </div>
+                <span class="enc-badge">E2E এনক্রিপ্টেড</span>
+              </div>
+
+              <form id="whistleblowerForm" class="modern-report-form">
+                <!-- Zone Selection -->
+                <div class="form-group">
+                  <label for="reportZone">ঘটনাস্থল / গ্রাম / এলাকা নির্বাচন করুন <span class="required">*</span></label>
+                  <select id="reportZone" required>
+                    <option value="" disabled selected>এলাকা নির্বাচন করুন...</option>
+                    <option value="Mohammadpur Bazar">মোহাম্মদপুর বাজার ও ইউনিয়ন পরিষদ এলাকা</option>
+                    <option value="Ratanpur Bazar">রতনপুর বাজার ও পার্শ্ববর্তী এলাকা</option>
+                    <option value="Dharonji & Shrimantapur">শ্রীমন্তপুর ও ধরন্জী সীমান্ত সংলগ্ন এলাকা</option>
+                    <option value="Chechra & Atapur">চেঁচড়া ও আটাপুর সংযোগ মোড়</option>
+                    <option value="Bagjana Corridor">বাগজানা ও হিলি রেললাইন সীমান্ত করিডোর</option>
+                    <option value="Panchbibi Station & Bus Stand">পাঁচবিবি রেলওয়ে স্টেশন ও বাসস্ট্যান্ড চত্বর</option>
+                    <option value="Mohipur & Shalaipur">মহীপুর ও শালাইপুর বিজিবি সীমান্ত ফাঁড়ি এলাকা</option>
+                    <option value="Uchai & Kusumba">উচাই ও কুসুম্বা সংলগ্ন পল্লি এলাকা</option>
+                    <option value="Other Panchbibi">পাঁচবিবি উপজেলার অন্য কোনো গ্রাম/ওয়ার্ড</option>
+                  </select>
+                </div>
+
+                <!-- Crime Category -->
+                <div class="form-group">
+                  <label>মাদক বা অপরাধের ধরন <span class="required">*</span></label>
+                  <div class="crime-types-grid" id="crimeTypesGrid">
+                    <label class="crime-chip">
+                      <input type="radio" name="crimeType" value="ট্যাপেন্টাডল ও ট্যাবলেট বিক্রি" required checked />
+                      <span>💊 ট্যাপেন্টাডল / নিষিদ্ধ ট্যাবলেট</span>
+                    </label>
+                    <label class="crime-chip">
+                      <input type="radio" name="crimeType" value="কুপিজেসিক ও নেশার ইনজেকশন" />
+                      <span>💉 কুপিজেসিক / নেশার ইনজেকশন</span>
+                    </label>
+                    <label class="crime-chip">
+                      <input type="radio" name="crimeType" value="সীমান্ত চোরাচালান ও পাচার" />
+                      <span>📦 সীমান্ত দিয়ে মাদক অনুপ্রবেশ</span>
+                    </label>
+                    <label class="crime-chip">
+                      <input type="radio" name="crimeType" value="মাদক গুদাম ও গোপন ডেরা" />
+                      <span>🏚️ গোপন গুদাম বা আস্তানা</span>
+                    </label>
+                    <label class="crime-chip">
+                      <input type="radio" name="crimeType" value="ফেনসিডিল, গাঁজা ও ইয়াবা" />
+                      <span>🍾 ফেনসিডিল, গাঁজা বা ইয়াবা</span>
+                    </label>
+                  </div>
+                </div>
+
+                <!-- Specific Landmark -->
+                <div class="form-group">
+                  <label for="reportLandmark">সুনির্দিষ্ট স্পট বা ল্যান্ডমার্ক <span class="required">*</span></label>
+                  <input type="text" id="reportLandmark" placeholder="যেমন: অমুক মোড়ের চায়ের দোকানের পেছনে, অমুক বাঁশবাগানে বা বিলের পাশে" required />
+                </div>
+
+                <!-- Suspect Details -->
+                <div class="form-row">
+                  <div class="form-group col-half">
+                    <label for="reportSuspect">সন্দেহভাজন কারবারির নাম বা ডাকনাম (যদি জানা থাকে)</label>
+                    <input type="text" id="reportSuspect" placeholder="যেমন: পলাশ / সোহান / কালু..." />
+                  </div>
+                  <div class="form-group col-half">
+                    <label for="reportTime">কার্যক্রমের সময়কাল</label>
+                    <select id="reportTime">
+                      <option value="সন্ধ্যার পর থেকে গভীর রাত">সন্ধ্যার পর থেকে গভীর রাত</option>
+                      <option value="সারাদিনই চলে">সারাদিনই মোটরসাইকেলে সরবরাহ চলে</option>
+                      <option value="ভোরবেলা বা কুয়াশার সময়">ভোরবেলা সীমান্ত পারাপার হয়</option>
+                      <option value="নির্দিষ্ট ট্রেনের সময়">ট্রেন বা বাসে করে আসে</option>
+                    </select>
+                  </div>
+                </div>
+
+                <!-- Full Intel Details -->
+                <div class="form-group">
+                  <label for="reportDetails">ঘটনার বিস্তারিত বিবরণ <span class="required">*</span></label>
+                  <textarea id="reportDetails" rows="4" placeholder="মাদক কীভাবে বহন করা হয় (যেমন মোটরসাইকেল, ভ্যান, ট্রেনের মাধ্যমে), কারা জড়িত, কোনো অস্ত্র আছে কিনা বা অভিযান পরিচালনার জন্য গুরুত্বপূর্ণ কোনো তথ্য..." required></textarea>
+                </div>
+
+                <!-- Proof File Upload with EXIF Scrubber Simulator -->
+                <div class="form-group">
+                  <label>ছবি / ভিডিও প্রমাণাদি (ঐচ্ছিক)</label>
+                  <div class="file-drop-area" id="fileDropArea">
+                    <input type="file" id="evidenceFileInput" accept="image/*,video/*" class="file-input-hidden" />
+                    <div class="drop-content">
+                      <span class="upload-icon">📸</span>
+                      <p><strong>ছবি বা ভিডিও এখানে আপলোড করুন</strong></p>
+                      <span class="file-tip">সিস্টেম স্বয়ংক্রিয়ভাবে ছবির GPS ও ক্যামেরার মেটাডাটা স্ক্রাব (মুছে) করবে</span>
+                    </div>
+                  </div>
+                  <div id="exifScrubberStatus" class="exif-status-box hidden">
+                    <span class="check-icon">✓</span>
+                    <span>EXIF মেটাডাটা ও ডিভাইসের লোকেশন সম্পূর্ণ স্ক্রাব করা হয়েছে! আপনার ফাইল ১০০% নিরাপদ।</span>
+                  </div>
+                </div>
+
+                <!-- Submit Button -->
+                <button type="submit" class="btn btn-full btn-crimson btn-submit-report" id="submitReportBtn">
+                  <span class="btn-spinner hidden" id="reportSpinner"></span>
+                  <span class="btn-text">🛡️ নিরাপদে গোপন তথ্য জমা দিন</span>
+                </button>
+              </form>
+
+              <!-- Success Modal / Card (Hidden initially) -->
+              <div id="reportSuccessCard" class="report-success-overlay hidden">
+                <div class="success-box glass-panel">
+                  <div class="success-icon">🎉</div>
+                  <h3>আপনার তথ্য সফলভাবে গৃহীত হয়েছে!</h3>
+                  <p>আপনার পরিচয় ১০০% সুরক্ষিত। মোহাম্মদপুর ইউনিয়ন মাদকবিরোধী স্পেশাল সেল তথ্যটি যাচাইয়ের কাজ শুরু করেছে।</p>
+                  
+                  <div class="reference-code-box">
+                    <span class="ref-label">আপনার সিক্রেট ট্র্যাকিং কোড:</span>
+                    <div class="ref-display">
+                      <strong id="generatedRefCode">MP-PANCH-2026-0000</strong>
+                      <button type="button" class="btn-copy-code" id="copyRefBtn" title="কোড কপি করুন">📋 কপি</button>
+                    </div>
+                    <small>এই কোডটি সংরক্ষণ করুন। এটি দিয়ে আপনি পরবর্তীতে অগ্রগতি ট্র্যাক করতে পারবেন।</small>
+                  </div>
+
+                  <button type="button" class="btn btn-navy" id="newReportBtn">আরেকটি রিপোর্ট করুন</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION 4: EMERGENCY RAPID RESPONSE & HELPLINE DIRECTORY -->
+      <section class="section-padding section-helplines" id="helplines">
+        <div class="container">
+          <div class="section-header text-center">
+            <div class="sub-badge badge-blue">📞 জরুরি যোগাযোগ ও হটলাইন</div>
+            <h2 class="section-title">
+              <span data-bn="পাঁচবিবি থানা, বিজিবি ও র‍্যাব হেল্পলাইন" data-en="Panchbibi Police, BGB & RAB Helplines">পাঁচবিবি থানা, বিজিবি ও র‍্যাব হেল্পলাইন</span>
+            </h2>
+            <p class="section-desc">
+              যেকোনো মাদক চোরাচালান, বর্ডার অপরাধ বা জরুরি পরিস্থিতিতে পাঁচবিবি থানা পুলিশ, জয়পুরহাট বিজিবি বা র‍্যাব ক্যাম্পে সরাসরি কল করুন।
+            </p>
+
+            <!-- Helplines Filter Tabs -->
+            <div class="helplines-tabs" id="helplineTabs">
+              <button class="tab-btn active" data-filter="all">সব জরুরি সেবা</button>
+              <button class="tab-btn" data-filter="police">পুলিশ ও প্রশাসন</button>
+              <button class="tab-btn" data-filter="bgb-rab">বিজিবি ও র‍্যাব-৫</button>
+              <button class="tab-btn" data-filter="health">হাসপাতাল ও অ্যাম্বুলেন্স</button>
+              <button class="tab-btn" data-filter="narcotics">মাদক নিয়ন্ত্রণ অধিদপ্তর</button>
+            </div>
+          </div>
+
+          <!-- Helplines Grid -->
+          <div class="helpline-cards-grid" id="helplinesGrid">
+            <!-- Populated via JS -->
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION 5: REHABILITATION & MENTAL HEALTH SUPPORT -->
+      <section class="section-padding section-rehab" id="rehab">
+        <div class="container">
+          <div class="rehab-banner-card glass-panel">
+            <div class="rehab-left">
+              <div class="sub-badge badge-green">🌱 মাদক নিরাময় ও সুস্থ জীবনে ফেরা</div>
+              <h2 class="section-title">
+                <span data-bn="মাদকাসক্তি কোনো অপরাধ নয়, এটি একটি চিকিৎসাযোগ্য রোগ" data-en="Addiction Can Be Treated With Care">মাদকাসক্তি কোনো অপরাধ নয়, এটি একটি চিকিৎসাযোগ্য রোগ</span>
+              </h2>
+              <p class="section-desc">
+                ট্যাপেন্টাডল বা মাদকের মায়াজালে কোনো তরুণ আটকে গেলে পরিবারের উচিত তিরস্কার না করে বিশেষজ্ঞ ডাক্তারের শরণাপন্ন হওয়া। জয়পুরহাট ও রাজশাহী বিভাগের অনুমোদিত নিরাময় কেন্দ্রের তথ্য নিচে তুলে ধরা হলো।
+              </p>
+
+              <!-- 4-Step Recovery Path -->
+              <div class="recovery-roadmap">
+                <div class="step-card">
+                  <div class="step-num">১</div>
+                  <h4>মনস্থির করা</h4>
+                  <p>মাদক ছাড়ার আন্তরিক সংকল্প ও পরিবারের সাথে খোলামেলা কথা বলা</p>
+                </div>
+                <div class="step-card">
+                  <div class="step-num">২</div>
+                  <h4>ডাক্তারি ডিটক্সিফিকেশন</h4>
+                  <p>হাসপাতালে চিকিৎসকের অধীনে উইথড্রল লক্ষণের নিরাপদ ব্যবস্থাপনা</p>
+                </div>
+                <div class="step-card">
+                  <div class="step-num">৩</div>
+                  <h4>মনস্তাত্ত্বিক কাউন্সেলিং</h4>
+                  <p>মানসিক জোর বৃদ্ধি, ডিপ্রেশন নিরাময় ও মাইন্ডসেট রূপান্তর</p>
+                </div>
+                <div class="step-card">
+                  <div class="step-num">৪</div>
+                  <h4>কাজে ফেরা</h4>
+                  <p>খেলাধুলা, পড়াশোনা ও সামাজিক পুনরেকত্রীকরণের মাধ্যমে নতুন সূচনা</p>
+                </div>
+              </div>
+
+              <!-- Addiction Self-Assessment Modal Trigger -->
+              <div class="rehab-cta-box">
+                <button type="button" class="btn btn-green btn-lg" id="openQuizBtn">
+                  <span>🧠 মাদকাসক্তি স্ক্রিনিং টেস্ট (৫টি কুইজ)</span>
+                </button>
+                <button type="button" class="btn btn-glass btn-lg" id="openCounselorModalBtn">
+                  <span>💬 গোপন কাউন্সেলিং অ্যাপয়েন্টমেন্ট</span>
+                </button>
+              </div>
+            </div>
+
+            <div class="rehab-right">
+              <div class="rehab-image-wrap">
+                <img src="/assets/counseling.jpg" alt="মাদক নিরাময় কাউন্সেলিং সেশন" class="rehab-img" />
+                <div class="quote-card glass-panel">
+                  <p>"ভুল সবার জীবনেই হতে পারে, কিন্তু সেই অন্ধকার থেকে আলোয় ফিরে আসার সাহসটাই আসল বীরত্ব।"</p>
+                  <cite>— ডা. নাসরিন আক্তার, ক্লিনিক্যাল সাইকোলজিস্ট</cite>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Verified Rehab Centers Grid -->
+          <div class="verified-centers-section">
+            <h3 class="subsection-title text-center">জয়পুরহাট ও উত্তরাঞ্চলের অনুমোদিত মাদকাসক্তি নিরাময় ও কাউন্সেলিং কেন্দ্র</h3>
+            <div class="rehab-centers-grid" id="rehabCentersGrid">
+              <!-- Rendered via JS -->
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION 6: CITIZEN VOLUNTEER SQUAD NETWORK -->
+      <section class="section-padding section-volunteers" id="volunteers">
+        <div class="container">
+          <div class="volunteer-card-wrap glass-panel">
+            <div class="volunteer-header text-center">
+              <div class="sub-badge badge-amber">🤝 নাগরিক প্রতিরোধ ও ছাত্র স্কোয়াড</div>
+              <h2 class="section-title">
+                <span data-bn="মোহাম্মদপুর ইউনিয়নকে মাদকমুক্ত করতে এগিয়ে আসুন" data-en="Join Mohammadpur Union Anti-Drug Squad">মোহাম্মদপুর ইউনিয়নকে মাদকমুক্ত করতে এগিয়ে আসুন</span>
+              </h2>
+              <p class="section-desc">
+                মোহাম্মদপুর ইউনিয়নের প্রতিটি ওয়ার্ডের সচেতন যুবক, ছাত্র ও অভিভাবকদের নিয়ে আমাদের স্বেচ্ছাসেবী নিরাপত্তা দল গঠিত হচ্ছে।
+              </p>
+            </div>
+
+            <div class="volunteer-grid-content">
+              <!-- Roles & Wards Info -->
+              <div class="volunteer-roles">
+                <h3>স্বেচ্ছাসেবক স্কোয়াডের দায়িত্বসমূহ:</h3>
+                
+                <div class="role-card">
+                  <div class="role-icon">🌙</div>
+                  <div>
+                    <h4>গ্রামভিত্তিক নৈশ পাহারা ও নজরদারি</h4>
+                    <p>নিরাপদ দূরত্ব থেকে সন্দেহভাজন মাদক আড্ডা বা সীমান্ত পাচারকারীদের গতিবিধি লক্ষ্য রাখা ও পুলিশ/বিজিবিকে অবগত করা।</p>
+                  </div>
+                </div>
+
+                <div class="role-card">
+                  <div class="role-icon">📢</div>
+                  <div>
+                    <h4>হাট-বাজার ও স্কুল ক্যাম্পেইন</h4>
+                    <p>মোহাম্মদপুর বাজার, রতনপুর বাজার ও স্থানীয় স্কুল-মাদ্রাসার শিক্ষার্থীদের মাঝে সচেতনতামূলক কার্যক্রম পরিচালনা।</p>
+                  </div>
+                </div>
+
+                <div class="role-card">
+                  <div class="role-icon">❤️</div>
+                  <div>
+                    <h4>পারিবারিক সহায়তা ও কাউন্সেলিং</h4>
+                    <p>মাদকাসক্ত তরুণদের পরিবারকে চিকিৎসকের সন্ধান দেওয়া ও সামাজিক পুনর্বাসনে সার্বক্ষণিক পাশে থাকা।</p>
+                  </div>
+                </div>
+
+                <!-- Mohammadpur Ward Badges -->
+                <div class="ward-badges-wrap">
+                  <p class="ward-title">মোহাম্মদপুর ইউনিয়নের ওয়ার্ড ও অঞ্চলসমূহ:</p>
+                  <div class="ward-badges">
+                    <span class="ward-badge">ওয়ার্ড ১ (মোহাম্মদপুর বাজার)</span>
+                    <span class="ward-badge">ওয়ার্ড ২ (রতনপুর)</span>
+                    <span class="ward-badge">ওয়ার্ড ৩ (শালপাড়া ও পল্লি)</span>
+                    <span class="ward-badge">ওয়ার্ড ৪ (শ্রীমন্তপুর সীমানা)</span>
+                    <span class="ward-badge">ওয়ার্ড ৫ (আটাপুর সংযোগ)</span>
+                    <span class="ward-badge">ওয়ার্ড ৬ (বাগজানা রুট)</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Registration Form -->
+              <div class="volunteer-form-wrap glass-panel">
+                <h3>স্বেচ্ছাসেবক হিসেবে নিবন্ধন করুন</h3>
+                <p class="form-desc">মোহাম্মদপুর ইউনিয়ন ও পাঁচবিবি উপজেলার তরুণ ও নাগরিকরা যুক্ত হোন</p>
+                
+                <form id="volunteerRegForm" class="volunteer-form">
+                  <div class="form-group">
+                    <label for="volName">আপনার পূর্ণ নাম <span class="required">*</span></label>
+                    <input type="text" id="volName" placeholder="উদাঃ রফিকুল ইসলাম" required />
+                  </div>
+
+                  <div class="form-row">
+                    <div class="form-group col-half">
+                      <label for="volPhone">মোবাইল নম্বর <span class="required">*</span></label>
+                      <input type="tel" id="volPhone" placeholder="০১৭XXXXXXXX" required />
+                    </div>
+                    <div class="form-group col-half">
+                      <label for="volWard">ওয়ার্ড / গ্রাম <span class="required">*</span></label>
+                      <select id="volWard" required>
+                        <option value="" disabled selected>গ্রাম/ওয়ার্ড নির্বাচন করুন...</option>
+                        <option value="Ward 1">ওয়ার্ড ১ (মোহাম্মদপুর গ্রাম/বাজার)</option>
+                        <option value="Ward 2">ওয়ার্ড ২ (রতনপুর)</option>
+                        <option value="Ward 3">ওয়ার্ড ৩ (শালপাড়া)</option>
+                        <option value="Ward 4">ওয়ার্ড ৪ (শ্রীমন্তপুর সংলগ্ন)</option>
+                        <option value="Ward 5">ওয়ার্ড ৫ (আটাপুর রোড)</option>
+                        <option value="Ward 6">ওয়ার্ড ৬ (বাগজানা মোড়)</option>
+                        <option value="Panchbibi College">পাঁচবিবি কলেজ ও বিশ্ববিদ্যালয় শিক্ষার্থী</option>
+                      </select>
+                    </div>
+                  </div>
+
+                  <div class="form-group">
+                    <label for="volRole">কোন উইংয়ে যুক্ত হতে চান? <span class="required">*</span></label>
+                    <select id="volRole" required>
+                      <option value="গ্রামভিত্তিক নাইট ওয়াচ">গ্রামভিত্তিক নাইট ওয়াচ (নৈশ নজরদারি ও অ্যালার্ট)</option>
+                      <option value="সচেতনতামূলক ক্যাম্পেইন">সচেতনতামূলক ক্যাম্পেইন ও পথসভা</option>
+                      <option value="কাউন্সেলিং ও লিগ্যাল এইড">কাউন্সেলিং ও আইনি সহায়তা উইং</option>
+                      <option value="সোশ্যাল মিডিয়া মনিটরিং">সোশ্যাল মিডিয়া ও সাইবার সচেতনতা</option>
+                    </select>
+                  </div>
+
+                  <div class="form-group">
+                    <label for="volBlood">রক্তের গ্রুপ (জরুরি মেডিকেল সাপোর্টের জন্য)</label>
+                    <select id="volBlood">
+                      <option value="জানা নেই">নির্বাচন করুন (ঐচ্ছিক)</option>
+                      <option value="A+">A+</option>
+                      <option value="A-">A-</option>
+                      <option value="B+">B+</option>
+                      <option value="B-">B-</option>
+                      <option value="AB+">AB+</option>
+                      <option value="AB-">AB-</option>
+                      <option value="O+">O+</option>
+                      <option value="O-">O-</option>
+                    </select>
+                  </div>
+
+                  <button type="submit" class="btn btn-full btn-green" id="volSubmitBtn">
+                    <span>🤝 নাগরিক স্কোয়াডে যোগ দিন</span>
+                  </button>
+                </form>
+
+                <div id="volSuccessMsg" class="vol-success-box hidden">
+                  <span class="check-icon">✓</span>
+                  <h4>ধন্যবাদ! আপনার রেজিস্ট্রেশন সম্পন্ন হয়েছে।</h4>
+                  <p>মোহাম্মদপুর ইউনিয়ন সমন্বয়ক টিম শীঘ্রই আপনার সাথে মোবাইল/হোয়াটসঅ্যাপে যোগাযোগ করবে।</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION 7: VERIFIED BULLETINS & FACT-CHECK CORNER -->
+      <section class="section-padding section-bulletins" id="bulletins">
+        <div class="container">
+          <div class="section-header text-center">
+            <div class="sub-badge badge-blue">📰 প্রেস বিজ্ঞপ্তি ও সত্যতা যাচাই</div>
+            <h2 class="section-title">
+              <span data-bn="অফিশিয়াল বুলেটিন ও স্থানীয় ঘটনার সত্যতা যাচাই" data-en="Official Bulletins & Fact-Check Portal">অফিশিয়াল বুলেটিন ও স্থানীয় ঘটনার সত্যতা যাচাই</span>
+            </h2>
+            <p class="section-desc">
+              পাঁচবিবি ও মোহাম্মদপুর ইউনিয়নের মাদকবিরোধী অভিযান নিয়ে সামাজিক যোগাযোগ মাধ্যমের বিভ্রান্তিকর গুজব এড়িয়ে ভেরিফায়েড সংবাদ জানুন।
+            </p>
+
+            <div class="bulletins-tabs" id="bulletinTabs">
+              <button class="tab-btn active" data-filter="news">অফিশিয়াল প্রেস বিজ্ঞপ্তি</button>
+              <button class="tab-btn" data-filter="factcheck">গুজব বনাম সত্য (Fact-Check)</button>
+            </div>
+          </div>
+
+          <div class="bulletins-content-grid" id="bulletinsGrid">
+            <!-- Dynamically populated via JS -->
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="main-footer">
+      <div class="container footer-container">
+        <div class="footer-col brand-col">
+          <div class="footer-brand">
+            <img src="/assets/emblem.jpg" alt="মোহাম্মদপুর মাদকবিরোধী অভিযান" class="footer-logo" />
+            <div>
+              <h3>মোহাম্মদপুর মাদকবিরোধী অভিযান</h3>
+              <p>মোহাম্মদপুর ইউনিয়ন, পাঁচবিবি, জয়পুরহাট</p>
+            </div>
+          </div>
+          <p class="footer-mission">
+            "মাদককে না বলি, মাদকমুক্ত সমাজ গড়ি — হয় মাদক ছাড়, না হয় মোহাম্মদপুর ছাড়।" 
+            পাঁচবিবি উপজেলার মোহাম্মদপুর ইউনিয়নকে শতভাগ মাদকমুক্ত করতে আমাদের ঐক্যবদ্ধ সংগ্রাম।
+          </p>
+          <div class="footer-social-links">
+            <a href="https://www.facebook.com/people/%E0%A6%AE%E0%A7%8B%E0%A6%B9%E0%A6%BE%E0%A6%AE%E0%A7%8D%E0%A6%AE%E0%A6%A6%E0%A6%AA%E0%A7%81%E0%A6%B0-%E0%A6%AE%E0%A6%BE%E0%A6%A6%E0%A6%95%E0%A6%AC%E0%A6%BF%E0%A6%B0%E0%A7%8B%E0%A6%A7%E0%A7%80-%E0%A6%85%E0%A6%AD%E0%A6%BF%E0%A6%AF%E0%A6%BE%E0%A6%A8/61594273847838/" target="_blank" rel="noopener noreferrer" class="social-btn fb-btn">
+              <span>📘 অফিশিয়াল ফেসবুক পেজ</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>গুরুত্বপূর্ণ লিংক</h4>
+          <ul class="footer-nav">
+            <li><a href="#hero">হোমপেইজ</a></li>
+            <li><a href="#hotspots">সীমান্ত ও ইউনিয়ন ওয়াচ রাডার</a></li>
+            <li><a href="#whistleblower">গোপন তথ্য ও অভিযোগ বক্স</a></li>
+            <li><a href="#helplines">থানা ও বিজিবি হটলাইন</a></li>
+            <li><a href="#rehab">মাদক নিরাময় কেন্দ্র ও চিকিৎসা</a></li>
+            <li><a href="#volunteers">স্বেচ্ছাসেবক স্কোয়াড নিবন্ধন</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>জরুরি স্থানীয় নম্বর</h4>
+          <ul class="footer-contacts">
+            <li><span>🚨 জাতীয় জরুরি সেবা:</span> <strong>৯৯৯</strong></li>
+            <li><span>👮 পাঁচবিবি থানা ওসি:</span> <strong>০১৭১৩-৩৭৪০৮৬</strong></li>
+            <li><span>📞 থানা ডিউটি অফিসার:</span> <strong>০১৮৬৫-০২০২২৭</strong></li>
+            <li><span>⚔️ বিজিবি ২০ ব্যাটালিয়ন:</span> <strong>০১৭৬৯-৬১২৩৫০</strong></li>
+            <li><span>🛡️ র‍্যাব-৫ জয়পুরহাট:</span> <strong>০১৭৭৭-৭১০৫৩৩</strong></li>
+            <li><span>💊 মাদক নিয়ন্ত্রণ (DNC):</span> <strong>১৬১১৬</strong></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>ভৌগোলিক অবস্থান ও আইনি তথ্য</h4>
+          <p class="disclaimer-text">
+            লোকেশন: মোহাম্মদপুর ইউনিয়ন পরিষদ, পাঁচবিবি উপজেলা, জয়পুরহাট জেলা (কোঅর্ডিনেটস: ২৫.২২৪৭° N, ৮৯.১০৬২° E)। প্রাপ্ত সকল গোপন তথ্য সরাসরি বিজিবি, পাঁচবিবি থানা ও মাদকদ্রব্য নিয়ন্ত্রণ অধিদপ্তরের কাছে আইনগত ব্যবস্থার জন্য প্রেরণ করা হয়।
+          </p>
+          <div class="backend-status-pill">
+            <span class="status-indicator"></span>
+            <span>REST API Ready for Laravel Backend</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div class="container footer-bottom-inner">
+          <p>© ২০২৬ মোহাম্মদপুর মাদকবিরোধী অভিযান সেল (পাঁচবিবি, জয়পুরহাট)।</p>
+          <p class="tagline">মাদকমুক্ত মোহাম্মদপুর, সুন্দর আগামীর জয়পুরহাট।</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- FLOATING SOS BUTTON WIDGET -->
+    <div class="floating-sos-widget" id="floatingSos">
+      <button class="sos-trigger-btn" id="sosTriggerBtn" aria-label="জরুরি এসওএস অ্যাকশন">
+        <span class="sos-pulse-ring"></span>
+        <span class="sos-text">🚨 SOS</span>
+      </button>
+
+      <div class="sos-popup-menu hidden" id="sosPopupMenu">
+        <div class="sos-popup-header">
+          <h4>🚨 জরুরি রেপিড ডায়াল (পাঁচবিবি)</h4>
+          <button class="sos-close-btn" id="sosCloseBtn">&times;</button>
+        </div>
+        <div class="sos-actions-list">
+          <a href="tel:999" class="sos-item item-national">
+            <span class="item-icon">🚨</span>
+            <div>
+              <strong>জাতীয় জরুরি সেবা</strong>
+              <small>৯৯৯ এ সরাসরি কল করুন</small>
+            </div>
+          </a>
+          <a href="tel:01713374086" class="sos-item item-police">
+            <span class="item-icon">👮</span>
+            <div>
+              <strong>পাঁচবিবি থানা (ওসি)</strong>
+              <small>০১৭১৩-৩৭৪০৮৬</small>
+            </div>
+          </a>
+          <a href="tel:01865020227" class="sos-item item-police">
+            <span class="item-icon">📞</span>
+            <div>
+              <strong>পাঁচবিবি থানা (ডিউটি অফিসার)</strong>
+              <small>০১৮৬৫-০২০২২৭</small>
+            </div>
+          </a>
+          <a href="tel:01769612350" class="sos-item item-army">
+            <span class="item-icon">⚔️</span>
+            <div>
+              <strong>বিজিবি ২০ ব্যাটালিয়ন জয়পুরহাট</strong>
+              <small>০১৭৬৯-৬১২৩৫০</small>
+            </div>
+          </a>
+          <a href="tel:01777710533" class="sos-item item-rab">
+            <span class="item-icon">🛡️</span>
+            <div>
+              <strong>র‍্যাব-৫ জয়পুরহাট ক্যাম্প</strong>
+              <small>০১৭৭৭-৭১০৫৩৩</small>
+            </div>
+          </a>
+          <a href="#whistleblower" class="sos-item item-report" id="sosReportShortcut">
+            <span class="item-icon">📝</span>
+            <div>
+              <strong>গোপন রিপোর্ট বক্স</strong>
+              <small>পরিচয় ছাড়া তথ্য পাঠান</small>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- REHAB QUIZ MODAL -->
+    <div class="modal-overlay hidden" id="quizModal">
+      <div class="modal-card glass-panel">
+        <div class="modal-header">
+          <h3>🧠 মাদকাসক্তি স্ক্রিনিং কুইজ (স্ব-মূল্যায়ন)</h3>
+          <button class="modal-close-btn" id="quizCloseBtn">&times;</button>
+        </div>
+        <div class="modal-body" id="quizBody">
+          <p class="quiz-intro">
+            এই ৫টি প্রশ্নের মাধ্যমে সহজে বুঝতে পারবেন আপনার বা আপনার কোনো পরিচিতজনের মাদকাসক্তির মাত্রা কতটুকু:
+          </p>
+          <div class="quiz-question-list" id="quizQuestionList">
+            <!-- Rendered by JS -->
+          </div>
+          <div class="quiz-result-box hidden" id="quizResultBox"></div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-navy" id="quizSubmitBtn">ফলাফল দেখুন</button>
+          <button type="button" class="btn btn-glass" id="quizResetBtn">পুনরায় শুরু করুন</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- COUNSELOR APPOINTMENT MODAL -->
+    <div class="modal-overlay hidden" id="counselorModal">
+      <div class="modal-card glass-panel">
+        <div class="modal-header">
+          <h3>💬 গোপন কাউন্সেলিং ও মানসিক স্বাস্থ্য সহায়তা</h3>
+          <button class="modal-close-btn" id="counselorCloseBtn">&times;</button>
+        </div>
+        <div class="modal-body">
+          <p class="counselor-intro">
+            সম্পূর্ণ গোপনীয়তার সাথে অভিজ্ঞ ক্লিনিক্যাল সাইকোলজিস্ট ও ডিএনসি সনদপ্রাপ্ত চিকিৎসকদের পরামর্শ পেতে অনুরোধ জানান:
+          </p>
+          <form id="counselorForm" class="counselor-form">
+            <div class="form-group">
+              <label for="counselorAlias">ছদ্মনাম বা ডাকনাম <span class="required">*</span></label>
+              <input type="text" id="counselorAlias" placeholder="যেমন: রাহাত (বা যেকোনো কাল্পনিক নাম)" required />
+            </div>
+            <div class="form-group">
+              <label for="counselorContact">যোগাযোগের ফোন বা হোয়াটসঅ্যাপ নম্বর <span class="required">*</span></label>
+              <input type="text" id="counselorContact" placeholder="যে নম্বরে কাউন্সেলর গোপন মেসেজ দেবেন" required />
+            </div>
+            <div class="form-group">
+              <label for="counselorIssue">সমস্যার ধরন</label>
+              <select id="counselorIssue">
+                <option value="ট্যাপেন্টাডল / নিষিদ্ধ ট্যাবলেট আসক্তি">ট্যাপেন্টাডল / নিষিদ্ধ ট্যাবলেট আসক্তি</option>
+                <option value="কুপিজেসিক / ড্রাগ ইনজেকশন">কুপিজেসিক / ড্রাগ ইনজেকশন থেকে মুক্তি</option>
+                <option value="ফেনসিডিল / অ্যালকোহল আসক্তি">ফেনসিডিল / অ্যালকোহল আসক্তি</option>
+                <option value="পরিবারের সদস্যের জন্য সাহায্য চাই">আমার সন্তানের / ভাইয়ের জন্য পরামর্শ চাই</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="counselorNotes">অতিরিক্ত কোনো কথা (ঐচ্ছিক)</label>
+              <textarea id="counselorNotes" rows="3" placeholder="পরিস্থিতির সংক্ষেপ..."></textarea>
+            </div>
+            <button type="submit" class="btn btn-full btn-green">অনুরোধ জমা দিন</button>
+          </form>
+          <div id="counselorSuccess" class="counselor-success hidden">
+            <span class="check-icon">✓</span>
+            <h4>আপনার অনুরোধটি নিরাপদে সংরক্ষিত হয়েছে!</h4>
+            <p>আমাদের বিশেষজ্ঞ কাউন্সেলিং টিম অতি শীঘ্রই অত্যন্ত গোপনীয়তার সাথে যোগাযোগ করবে।</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- TOAST NOTIFICATION CONTAINER -->
+    <div class="toast-container" id="toastContainer"></div>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
